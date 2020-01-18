@@ -11,7 +11,7 @@
 Summary:	Persistent connections using Net::HTTP plus a speed fix
 Name:		rubygem-%{gem_name}
 Version:	2.8
-Release:	4%{?dist}
+Release:	5%{?dist}
 Group:		Development/Languages
 License:	MIT
 
@@ -99,6 +99,9 @@ popd
 %{gem_docdir}/
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.8-5
+- Mass rebuild 2013-12-27
+
 * Thu Mar 21 2013 Vít Ondruch <vondruch@redhat.com> - 2.8-4
 - Fix EL compatibility.
 - Test are passing now.
